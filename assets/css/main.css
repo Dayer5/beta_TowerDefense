@@ -1,0 +1,58 @@
+
+
+
+/* body{
+    background-image: url('../image/background.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+} */
+
+
+
+
+#general_contaier{
+    margin-left: 50%;
+    transform:translateX(-50%);
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#canvas_container{
+    width:50%;
+}
+
+
+#canvasID{
+    /* width:100%; */
+    margin-top: 50%;
+    transform:translateY(-50%);
+}
+
+
+#tower_container{  
+    width:50%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+#tower_container .tower{
+    width:20%;
+    max-width:300px;
+    min-width:150px;
+    max-height:150px;
+    outline:4px solid rgb(79, 116, 6);
+    background-color: yellowgreen;
+
+}
+
+#tower_container .tower button{
+    width:100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor:pointer;
+}

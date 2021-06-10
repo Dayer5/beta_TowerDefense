@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- Link the stylesheet -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+
+    <!-- Loading Files -->
+    <script defer src="assets/js/classes/class.Entity.js"></script>
+    <script defer src="assets/js/classes/class.Tile.js"></script>
+    <script defer src="assets/js/classes/class.Map.js"></script>
+    <script defer src="assets/js/classes/class.Enemy.js"></script>
+    <script defer src="assets/js/classes/class.Player.js"></script>
+    <script defer src="assets/js/classes/class.Tower.js"></script>
+
+    <script defer src="assets/js/main.js"></script>
+
+
+</head>
+<body>
+    <style>
+        img{
+            display:none;
+        }
+    </style>
+
+    <!-- Showing Cash, BaseHP and The Tutorial Text -->
+    <div id="player_information">
+        <span id="tutorial_text"></span>
+        <p id="cash">Cash: 0</p>
+        <p id="Base HP">Base HP: 0</p>
+        <br>
+    </div>
+
+    
+
+
+    <img src="assets/image/EnemynormalRight-TowerDefense.png" alt="">
+    <img src="assets/image/EnemynormalDown-TowerDefense.png" alt="">
+    <img src="assets/image/EnemynormalUp-TowerDefense.png" alt="">
+    <img src="assets/image/EnemynormalLeft-TowerDefense.png" alt="">
+    <img src="assets/image/EnemystrongRight-TowerDefense.png" alt="">
+    <img src="assets/image/EnemystrongDown-TowerDefense.png" alt="">
+    <img src="assets/image/EnemystrongUp-TowerDefense.png" alt="">
+    <img src="assets/image/EnemystrongLeft-TowerDefense.png" alt="">
+    <img src="assets/image/Enemynormal_bossRight-TowerDefense.png" alt="">
+    <img src="assets/image/Enemynormal_bossDown-TowerDefense.png" alt="">
+    <img src="assets/image/Enemynormal_bossUp-TowerDefense.png" alt="">
+    <img src="assets/image/Enemynormal_bossLeft-TowerDefense.png" alt="">
+    <img src="assets/image/Enemyhard_bossRight-TowerDefense.png" alt="">
+    <img src="assets/image/Enemyhard_bossDown-TowerDefense.png" alt="">
+    <img src="assets/image/Enemyhard_bossUp-TowerDefense.png" alt="">
+    <img src="assets/image/Enemyhard_bossLeft-TowerDefense.png" alt="">
+    
+
+    <!-- Buttoms for buying towers -->
+
+    <div id="general_contaier">
+
+
+        <div id="canvas_container">
+            <!-- Creating the canvas -->
+            <canvas id="canvasID" width="400" height="400" style="outline:1px solid black;"></canvas>
+        </div>
+
+
+        <div id="tower_container">
+            
+            <!-- Pistol -->
+            <div class="tower">
+                <button id="pistol" onclick="buyTower('pistol')">Buy Pistol Tower</button>
+                <ul>
+                    <li>Pistol Stats:</li>
+                    <li>Damage: 1</li>
+                    <li>Range: 2</li>
+                    <li>Cost: $200</li>
+                </ul>
+            </div>
+
+            <!-- Hunter -->
+            <div class="tower">
+                <button id="hunter" onclick="buyTower('hunter')">Buy Hunter Tower </button>
+                <ul>
+                    <li>Hunter Stats:</li>
+                    <li>Damage: 1</li>
+                    <li>Range: 5</li>
+                    <li>Cost: $350</li>
+                </ul>
+            </div>
+
+            <!-- Minigunner -->
+            <div class="tower">
+                <button id="minigunner" onclick="buyTower('minigunner')">Buy Minigunner Tower</button>
+                <ul>
+                    <li>Minigunner Stats:</li>
+                    <li>Damage: 7</li>
+                    <li>Range: 2</li>
+                    <li>Cost: $1000</li>
+                </ul>
+            </div>
+            
+            <!-- Raygunner -->
+            <div class="tower">
+                <button id="raygunner" onclick="buyTower('raygunner')">Buy Raygunner Tower</button>
+                <ul>
+                    <li>Raygunner Stats:</li>
+                    <li>Damage: 5</li>
+                    <li>Range: 10</li>
+                    <li>Cost: $1600</li>
+                </ul>
+            </div>
+
+            <!-- Assassin -->
+            <div class="tower">
+                <button id="assassin" onclick="buyTower('assassin')">Buy Assassin Tower</button>
+                <ul>
+                    <li>Assassin Stats:</li>
+                    <li>Damage: 12</li>
+                    <li>Range: 1</li>
+                    <li>Cost: $2000</li>
+                </ul>
+            </div>
+
+            <!-- TEST -->
+            <div class="tower">
+                <button id="TEST" onclick="buyTower('TEST')">Buy TEST Tower</button>
+                <ul>
+                    <li>TEST Stats (Testing only):</li>
+                    <li>Damage: 100000</li>
+                    <li>Range: 3</li>
+                    <li>Cost: $99999999</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    
+</body>
+</html>

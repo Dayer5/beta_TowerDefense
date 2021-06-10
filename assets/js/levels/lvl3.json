@@ -1,0 +1,33 @@
+{
+    "level":[
+        ["bush", "grass","grass","grass","grass","grass","grass","bush","bush","bush"], 
+        ["grass", "grass","grass","grass","bush","road","road","road","road","grass"], 
+        ["road", "road", "road", "grass", "grass", "road","grass","grass","road","grass"], 
+        ["grass","grass","road","grass","grass","road","grass","grass","road","grass"], 
+        ["bush","grass","road","grass","grass","road","grass","grass","road","grass"],
+        ["bush","grass","road","road","road","road","grass","road","road","grass"],
+        ["grass","grass","grass","grass","grass","grass","grass","road","grass","bush"],
+        ["grass","grass","grass","bush","bush","grass","grass","road","grass","bush"], 
+        ["bush","bush","grass","grass","bush","road","road","road","grass","grass"],
+        ["bush", "bush","grass","grass","grass","base","bush","grass","grass","grass"]
+    ],
+    "enemies":[
+        { "x":-1, "y":2, "type":"normal_boss" },
+        { "x":-3, "y":2, "type":"strong" },
+        { "x":-4, "y":2, "type":"strong" },
+        { "x":-5, "y":2, "type":"strong" },
+        { "x":-6, "y":2, "type":"strong" },
+        { "x":-7, "y":2, "type":"strong" },
+        { "x":-9, "y":2, "type":"normal_boss" },
+        { "x":-11, "y":2, "type":"strong" },
+        { "x":-12, "y":2, "type":"strong" },
+        { "x":-13, "y":2, "type":"strong" },
+        { "x":-14, "y":2, "type":"strong" },
+        { "x":-15, "y":2, "type":"strong" },
+        { "x":-16, "y":2, "type":"strong" },
+        { "x":-18, "y":2, "type":"normal_boss" },
+        { "x":-19, "y":2, "type":"normal_boss" },
+        { "x":-19, "y":2, "type":"normal_boss" }
+    ],
+    "cash": 1500
+}
